@@ -991,9 +991,9 @@ transform: translateY(-.5rem);
   .home__container
   {
     position: relative;
-    grid-template-columns: 500px 300px;
+    grid-template-columns: 500px 600px;
     align-items: center;
-    column-gap: 4rem;
+    column-gap: 2rem;
     padding-block: 3.5rem 8rem;
   }
   .home__content
@@ -1016,7 +1016,7 @@ transform: translateY(-.5rem);
   }
   .home__button
   {
-    justify-self: flex-start;
+    justify-self: center;
   }
   .services__container
   {
