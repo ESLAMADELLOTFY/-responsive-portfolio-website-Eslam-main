@@ -97,7 +97,7 @@ a {
 
 img {
   display: block;
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
 }
 
@@ -339,7 +339,8 @@ cursor: pointer;
 .perfil__img
 {
   position: relative;
-  top: 9.5rem;
+  top: 5.5rem;
+  width: 200px;
 }
 .home__rectangle
 {
@@ -979,7 +980,7 @@ transform: translateY(-.5rem);
   }
   .perfil__img
   {
-    width: 900px;
+    width: 500px;
     position: absolute;
     top: 0rem;
   }
