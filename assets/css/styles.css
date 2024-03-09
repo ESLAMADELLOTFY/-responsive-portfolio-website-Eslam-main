@@ -865,7 +865,7 @@ transform: translateY(-.5rem);
 @media screen and (min-width:576px) {
   .services__container
   {
-    grid-template-columns:320px;
+    grid-template-columns:420px;
     justify-content:center;
   }
   .services__model-content  {
@@ -886,7 +886,7 @@ transform: translateY(-.5rem);
 @media screen and (min-width:768px) {
   .services__container
   {
-    grid-template-columns:repeat(2,320px)
+    grid-template-columns:repeat(2,380px)
   }
   .work__container
   {
@@ -983,6 +983,8 @@ transform: translateY(-.5rem);
     width: 500px;
     position: absolute;
     top: 0rem;
+  transform:none;
+
   }
   .home__rectangle
   {
@@ -1021,7 +1023,7 @@ transform: translateY(-.5rem);
   }
   .services__container
   {
-    grid-template-columns: repeat(3 , 345px);
+    grid-template-columns: repeat(2 , 545px);
   }
   .services__card
   {
